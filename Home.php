@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-<?php include "Header.html";?>
-<?php include "design.css";?>
-</style>
+<style><?php include "Header.html";?></style>
+<style><?php include "design.css";?></style>
 <script language="javascript" type="text/javascript" src="functions.js"></script>
 </head>
 
@@ -18,6 +16,7 @@
 
 <!--Första dropdown. Alla select ligger i en form med post-metod för att posta val till db från orderDB.php -->
 <div class="container">
+<h2>Choose your new kitchen! </h2>
 <form method="POST" name=drop1 action='orderDB.php'>
 <select name="appliancesList" id="SelectFirst" onChange="getSelectedValue(this);">
 <option value="selectObject" selected Disabled>--Appliances--</option>
@@ -41,7 +40,7 @@ while ($row = mysqli_fetch_array($result))
 </div>
 
 <!--Presenterar vad som är valt. Förtydligande för användare -->
-<h3>Orderlist</h3>
+<h3>Order list</h3>
 <p id=selectedItem1></p>
 <p id=selectedItem2></p>
 <p id=selectedItem3></p>
