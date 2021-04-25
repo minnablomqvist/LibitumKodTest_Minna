@@ -1,0 +1,36 @@
+body {
+    background-color: floralwhite;
+}
+.container {
+    background-color: D2D2D2;
+    box-shadow: 1px 1px 1px 1px grey;
+    display: inline-block;
+    padding: 100px 100px 100px 100px;
+    width: 35%;
+    height: 50%;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+#SelectFirst {
+    width: 110px;
+    border: 2px solid red;
+    float: left;
+}
+#SelectSecond {
+    width: 100px;
+    border: 2px solid red;
+    position: relative;
+    float: left;
+}
+#SelectThird {
+    width: 100px;
+    border: 2px solid red;
+}
+.navbarText {
+    padding-bottom: 10px;
+    font-family: 'Cinzel', serif;
+    color: #AEAA87;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
